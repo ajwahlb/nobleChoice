@@ -1,0 +1,64 @@
+<div id="tippy-top">
+	<div class="container">
+		<p class="left">Noble Choice Chiropractic <span class="new-break">&nbsp;&bull;&nbsp;</span> 2410 Montana Ave, Sun Prairie, WI 53590 <span class="new-break">&nbsp;&bull;&nbsp;</span> Phone: (608) 318-5300</p>
+		<p class="right">
+			{% if site.twitter_username %}
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+  				<i class="fa fa-twitter"></i>
+			</a>&nbsp;&nbsp;
+			{% endif %} 
+
+			{% if site.facebook_username %}
+             <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                  <i class="fa fa-facebook"></i>
+             </a>&nbsp;&nbsp;
+             {% endif %} 
+
+         	{% if site.google_plus_username %}
+             <a href="https://plus.google.com/{{ site.google_plus_username }}">
+                  <i class="fa fa-google-plus"></i>
+              </a>
+              {% endif %}
+          </p>
+	</div>
+</div>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<div class="container">
+		<a class="navbar-brand" href="/">
+	  		<img src="/images/header/noble-choice.svg" width="40" height="40" alt="">
+		</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	   		<span class="navbar-toggler-icon"></span>
+	 	</button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		  <ul class="navbar-nav">
+		    {% for nav in site.data.navigation %}
+		      {% if nav.subcategories != null %}
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="{{ site.url }}{{ nav.url }}">{{ nav.title }}</a>
+		          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		          {% for subcategory in nav.subcategories %}
+		            <a class="dropdown-item" href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a>
+		          {% endfor %}
+		          </div>
+		        </li>
+		      {% elsif nav.title == page.title %}
+		         <li class="nav-item active">
+		           <a class="nav-link" href="{{ nav.url }}">{{ nav.title }}</a>
+		         </li>
+		      {% else %} 
+		        <li class="nav-item">
+		          <a class="nav-link" href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
+		        </li>
+		      {% endif %}
+		    {% endfor %}
+		  </ul>
+		 </div>
+	</div>
+</nav>
+
+<!-- 
+ -->

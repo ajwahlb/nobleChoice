@@ -1,0 +1,83 @@
+<footer class="site-footer">
+
+  <div class="container">
+    <div class="row d-flex">
+      <div class="p-2">
+
+        <div class="row">
+          <h3 class="footer-heading">{{ site.title | escape }} &copy; 2013<script>new Date().getFullYear()>2013&&document.write("-"+new Date().getFullYear());</script> </h3>
+            
+        </div>
+
+        <div class="row">
+
+          <div class="col">
+             <address>
+              2410 Montana Ave<br>
+              Sun Prairie, WI 53590<br>
+              <abbr title="Phone">P:</abbr> (608) 318 5300
+            </address>
+            {% for page in site.pages %}
+              {% if page.title == 'Privacy Policy' %}
+                <a href="{{ page.url }}">{{ page.title }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+
+          <div class="col">
+            <ul class="social-media-list">
+              {% if site.twitter_username %}
+              <li>
+                <a href="https://twitter.com/{{ site.twitter_username }}">
+                  <i class="fa fa-twitter"></i> Twitter
+                </a>
+              </li>
+              {% endif %}
+
+              {% if site.facebook_username %}
+              <li>
+                <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                  <i class="fa fa-facebook"></i> Facebook
+                </a>
+              </li>
+              {% endif %}
+
+              {% if site.google_plus_username %}
+              <li>
+                <a href="https://plus.google.com/{{ site.google_plus_username }}">
+                  <i class="fa fa-google-plus"></i> Google+
+                </a>
+              </li>
+              {% endif %}
+            </ul>
+          </div>
+          
+        </div>
+         
+      </div>
+      <div class="p-2 ml-auto">
+        <em><u>Our Busines hours</u></em></h2>
+          <ul>
+            <li><strong>Mon:</strong> 9am - 1pm, 3pm - 6pm</li>
+            <li><strong>Tue:</strong> 3pm - 6pm</li>
+            <li><strong>Wed:</strong> 9am - 1pm, 3pm - 6pm</li>
+            <li><strong>Thu:</strong> 3pm - 6pm</li>
+            <li><strong>Fri:</strong> 9am - 1pm, 3pm - 6pm</li>
+          </ul>
+      </div>
+    </div>
+
+      <div class="footer-col footer-col-3 description">
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="/js/my.js"></script>
+
+</footer>
