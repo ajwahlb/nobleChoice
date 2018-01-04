@@ -92,16 +92,16 @@
     height: 100%;
 }
 .hp-s1{
-    background: url(/images/hp/ncc-5.jpg) no-repeat top center/cover;
+    background: url(https://ajwahlb.github.io/nobleChoice/images/hp/ncc-5.jpg) no-repeat top center/cover;
 }
 .hp-s2{
-    background: url(/images/hp/ncc-3.jpg) no-repeat top center/cover;
+    background: url(https://ajwahlb.github.io/nobleChoice/images/hp/ncc-3.jpg) no-repeat top center/cover;
 }
 .hp-s3{
-    background: url(/images/hp/ncc-4.jpg) no-repeat center center/cover;
+    background: url(https://ajwahlb.github.io/nobleChoice/images/hp/ncc-4.jpg) no-repeat center center/cover;
 }
 
-/* GENERAL STYLES 
+/* GENERAL STYLES
  -------------------------------------------------- */
 a {
     color: #1A1;
@@ -172,7 +172,7 @@ h1 span{
     color: inherit;
 }
 .backgroundImg{
-    background: url(/images/hp/ncc-1.jpg) center fixed;
+    background: url(https://ajwahlb.github.io/nobleChoice/images/hp/ncc-1.jpg) center fixed;
 }
 .bluegrey{
     background-color: rgba(214, 222, 230, .7);
