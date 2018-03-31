@@ -17,7 +17,7 @@ title: Noble Choice Chiropractic
 description: >- # this means to ignore newlines until "baseurl:"
   We are Chiropractors located in Sun Prairie, WI and serving Madison, De Forest, Waunakee, Windsor and Cottage Grove area certified in Graston Technique and Active Release Technique serving all individuals who seek to live a healthier life and perform at their best.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.mynoblechoice.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.mynoblechoice.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mynoblechoice
 facebook_username:  NobleChoiceChiropractic
 google_plus_username: +Mynoblechoice
