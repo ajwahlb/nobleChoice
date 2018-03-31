@@ -11,7 +11,18 @@
     {% include google-analytics.html %}
   {% endif %}
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116665013-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-116665013-1');
+  </script>
+
+
   <!-- custom css -->
-  <link rel="stylesheet" type="text/css" href="https://ajwahlb.github.io/nobleChoice/css/main.css">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
 
 </head>
