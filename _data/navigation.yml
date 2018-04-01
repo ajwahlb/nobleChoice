@@ -4,36 +4,36 @@
 - title: "What is Chiropractic?"
   subcategories:
     - subtitle: "What is Chiropractic?"
-      subhref: "/why-chiropractic/what-is-chiropractic/"
+      subhref: "why-chiropractic/what-is-chiropractic/"
     - subtitle: "Education of a D.C."
-      subhref: "/why-chiropractic/education/"
+      subhref: "why-chiropractic/education/"
     - subtitle: "Frequently Asked Questions"
-      subhref: "/why-chiropractic/faq/"
+      subhref: "why-chiropractic/faq/"
 
 - title: "New Patients"
   subcategories:
     - subtitle: "What to Expect"
-      subhref: "/new-patients/what-to-expect/"
+      subhref: "new-patients/what-to-expect/"
     - subtitle: "Intake Forms"
-      subhref: "/new-patients/intake-forms/"
+      subhref: "new-patients/intake-forms/"
     - subtitle: "Health Insurance"
-      subhref: "/new-patients/insurance/"
+      subhref: "new-patients/insurance/"
 
 - title: "Our Solutions"
   subcategories:
     - subtitle: "Techniques"
-      subhref: "/our-solutions/techniques/"
+      subhref: "our-solutions/techniques/"
     - subtitle: "Treated Conditions"
-      subhref: "/solutions/treated-conditions/"
+      subhref: "solutions/treated-conditions/"
 
 - title: "Occupational Health"
   subcategories:
     - subtitle: "D.O.T. Physicals"
-      subhref: "/occupational-health/dot-physicals/"
+      subhref: "occupational-health/dot-physicals/"
     - subtitle: "Cost Reduction Technologies (CRT)"
-      subhref: "/occupational-health/crt/"
+      subhref: "occupational-health/crt/"
     - subtitle: "Worker's Comp"
-      subhref: "/occupational-health/workers-comp/"
+      subhref: "occupational-health/workers-comp/"
 
 - title: "Contact Us"
-  href: "/contact-us/"
+  href: "contact-us/"
