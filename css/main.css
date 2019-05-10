@@ -101,6 +101,17 @@
     background: url(/images/hp/ncc-4.jpg) no-repeat center center/cover;
 }
 
+/* Map */
+.map {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  top: 500px;
+  margin-top: -500px;
+  z-index: 1;
+}
+
+
 /* GENERAL STYLES
  -------------------------------------------------- */
 a {
