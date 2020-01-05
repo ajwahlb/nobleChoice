@@ -136,6 +136,9 @@ a:hover {
 .page-header{
     margin: 4vw 0;
 }
+.card.bio{
+	border:none;
+}
 img.bio{
     margin:0 0 10px 15px;
 }
