@@ -262,6 +262,14 @@ footer.site-footer .description{
     .col-sm-6{
         margin-bottom: 30px;
     }
+		.carousel{
+			display: none;
+		}
+		.hp-s1,
+		.hp-s2,
+		.hp-s3{
+		    background: none;
+		}
     .display-4 {
         font-size: 2rem;
     }
