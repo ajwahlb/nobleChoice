@@ -92,13 +92,13 @@
     height: 100%;
 }
 .hp-s1{
-    background: url(/images/hp/ncc-5.jpg) no-repeat top center/cover;
+    background: url(/images/hp/slider-1.jpg) no-repeat top center/cover;
 }
 .hp-s2{
-    background: url(/images/hp/ncc-3.jpg) no-repeat top center/cover;
+    background: url(/images/hp/slider-2.jpg) no-repeat top center/cover;
 }
 .hp-s3{
-    background: url(/images/hp/ncc-4.jpg) no-repeat center center/cover;
+    background: url(/images/hp/slider-3.jpg) no-repeat center center/cover;
 }
 
 /* Map */
