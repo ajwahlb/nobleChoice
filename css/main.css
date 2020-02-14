@@ -119,6 +119,11 @@
 
 /* GENERAL STYLES
  -------------------------------------------------- */
+ .btn-primary {
+    color: #fff;
+    background-color: #044d9c;
+    border-color: #044d9c;
+}
 a {
     color: #1A1;
     text-decoration: none;
