@@ -20,7 +20,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.mynoblechoice.com/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: mynoblechoice
 facebook_username:  NobleChoiceChiropractic
-google_plus_username: +Mynoblechoice
 
 # Build settings
 markdown: kramdown
