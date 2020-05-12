@@ -114,7 +114,7 @@
 /* ABOUT US STYLES */
 .bio-pic{
 	max-width: 300px;
-	width: 100%;
+	margin: auto;
 }
 
 /* GENERAL STYLES
