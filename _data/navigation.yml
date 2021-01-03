@@ -14,8 +14,6 @@
   subcategories:
     - subtitle: "What to Expect"
       subhref: "new-patients/what-to-expect/"
-    - subtitle: "Intake Forms"
-      subhref: "new-patients/intake-forms/"
     - subtitle: "Health Insurance"
       subhref: "new-patients/insurance/"
 
@@ -30,8 +28,6 @@
   subcategories:
     - subtitle: "D.O.T. Physicals"
       subhref: "occupational-health/dot-physicals/"
-    - subtitle: "Cost Reduction Technologies (CRT)"
-      subhref: "occupational-health/crt/"
     - subtitle: "Worker's Comp"
       subhref: "occupational-health/workers-comp/"
 
