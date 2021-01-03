@@ -119,6 +119,9 @@
 
 /* GENERAL STYLES
  -------------------------------------------------- */
+ .btn{
+	 margin-bottom: 5px;
+ }
  .btn-primary {
     color: #fff;
     background-color: #044d9c;
@@ -213,6 +216,7 @@ label{
 .grey{
     background-color: #efefef;
     padding: 20px;
+		border:1px solid #e0e0e0;
 }
 .wht{
     background-color: #fff;
